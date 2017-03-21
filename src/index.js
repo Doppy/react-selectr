@@ -120,7 +120,7 @@ class Select extends Component {
       });
     }
   }
-  
+
   handleSelectOption = (currentValue) => {
     const {
       multiple,
@@ -368,7 +368,6 @@ class Select extends Component {
       multiple,
       disabled,
     } = this.props;
-    console.log('state', this.state);
     return (
       <div className={`${PREFIX}-container`} ref={c => this.component = c}>
         <div
